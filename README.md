@@ -21,7 +21,7 @@ JavaScript (ES6) – Animations and interactivity
 
 💌 How to Use
 
-Open my website: file:///C:/Users/carlo/OneDrive/Desktop/rufo%20jade/index.html
+Open my website: https://jaderufo80-a11y.github.io/Teacher-s-Day_Card/
 
 🙏 Acknowledgment
 
