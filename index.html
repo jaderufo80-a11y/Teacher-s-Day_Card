@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Teachers’ Day Card | Ma’am Phoebe Castillo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <div class="card" id="card">
+      <div class="front">
+        <h1>Happy Teachers’ Day!</h1>
+        <h2>To our inspiring mentor</h2>
+        <p id="frontMessage">
+          Dear Ma’am Phoebe Castillo,<br><br>
+          Thank you for your patience, dedication, and the wisdom you share every day.
+          You’ve made a lasting impact on every student you teach. Your passion and kindness continue to inspire us.<br><br>
+          With appreciation,<br>
+          <span id="senderName">[Your Name]</span>
+        </p>
+      </div>
+      <div class="back">
+        <h1>Teachers’ Day Message</h1>
+        <textarea id="messageInput">Dear Ma’am Phoebe Castillo,
+Thank you for your unwavering support and guidance. You inspire us to learn with joy and curiosity.
+With gratitude,
+[Your Name]</textarea>
+      </div>
+    </div>
+
+    <div class="panel">
+      <label>From (your name):</label>
+      <input type="text" id="senderInput" placeholder="Type your name (e.g., Carlo)" />
+
+      <div class="controls">
+        <button id="flipBtn">Open message</button>
+        <button id="confettiBtn">Celebrate</button>
+        <button id="previewBtn">Preview</button>
+        <button id="typeBtn">Type animation</button>
+        <button id="themeBtn">Toggle theme</button>
+        <button id="printBtn">Print / Save</button>
+      </div>
+    </div>
+  </div>
+
+  <canvas id="confetti"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
